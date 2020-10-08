@@ -1,17 +1,20 @@
+
 body
 {
- background-color:plum;
- /*background-color: #ff0000;*/
- /*background-color: rgb(255,0,0);*/
-    
+    background-color:plum;
+    /*background-color: #ff0000;*/
+    /*background-color: rgb(255,0,0);*/
+       
 }
+
 h1  {
     color:blue;
-    font-size: 150px;
+    font-size: 100px;
     text-decoration:underline;
     text-transform:capitalize
 }
-.img1 {border: 30px ridge brown;}
+
+.img1 {border: 30px ridge brown; position: fixed;left: 600px;}
 p
 {
     font-size: 30px;
@@ -37,3 +40,22 @@ p
     text-indent: 20px;
     float: right;
 }
+
+#animate-area   { 
+    width: 560px; 
+    height: 400px; 
+    background-image: url('http://smarticle.ru/wp-content/uploads/2016/02/bg-clouds.png');
+    background-position: 0px 0px;
+    background-repeat: repeat-x;
+
+    animation: animatedBackground 40s linear infinite;
+}
+
+@keyframes animatedBackground {
+    from { background-position: 0 0; }
+    to { background-position: 100% 0; }
+}
+    
+    
+     
+    
