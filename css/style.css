@@ -41,21 +41,23 @@ p
     float: right;
 }
 
+
+    
 #animate-area   { 
-    width: 560px; 
-    height: 400px; 
+    width: 1000px; 
+    height: 250px; 
     background-image: url('http://smarticle.ru/wp-content/uploads/2016/02/bg-clouds.png');
-    background-position: 0px 0px;
+    background-position: 0px 250px;
     background-repeat: repeat-x;
 
-    animation: animatedBackground 40s linear infinite;
+    animation: animatedBackground 20s linear infinite;
 }
 
 @keyframes animatedBackground {
-    from { background-position: 0 0; }
+    from { background-position: 0 250; }
     to { background-position: 100% 0; }
-}
-    
-    
+}    
      
-    
+
+
+
